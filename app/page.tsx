@@ -1,7 +1,7 @@
 import { HomeCards } from "@/components/HomeCards";
 import MapFilterItems from "@/components/MapItems";
 
-export default async function Page() {
+export default function Page() {
   return (
     <div className="container mx-auto px-5 lg:px-10">
       <MapFilterItems></MapFilterItems>

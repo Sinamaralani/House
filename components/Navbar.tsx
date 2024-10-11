@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="w-full border-b font-IRANSansXV">
       <div className="container mx-auto flex items-center justify-between px-5 py-5 lg:px-10">
-        <Link href="/">
+        <Link href="#">
           <Image
             src={DesktopLogo}
             alt="Desktop Logo"
