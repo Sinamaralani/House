@@ -1,14 +1,7 @@
 import { HomeCards } from "@/components/HomeCards";
 import MapFilterItems from "@/components/MapItems";
-import { createClient } from "@/utils/supabase/server";
-import { cookies } from "next/headers";
 
 export default async function Page() {
-  const cookieStore = cookies();
-  const supabase = createClient(cookieStore);
-
-  const { data: todos } = await supabase.from("products").select("name");
-
   return (
     <div className="container mx-auto px-5 lg:px-10">
       <MapFilterItems></MapFilterItems>

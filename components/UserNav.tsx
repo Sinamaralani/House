@@ -4,7 +4,6 @@ import {
   DropdownMenuContent,
 } from "@radix-ui/react-dropdown-menu";
 import { MenuIcon } from "lucide-react";
-import Link from "next/link";
 
 export default function UserNav() {
   return (
